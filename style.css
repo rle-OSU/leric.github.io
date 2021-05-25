@@ -1,0 +1,146 @@
+/*General CSS*/
+body
+{
+    background-color: grey;
+}
+nav
+{
+    text-align: center;
+}
+nav
+{
+    background-color: black;
+}
+nav>ul>li
+{
+    display: inline;
+    background-color: black;
+    color: white;
+    border-right: 1px solid;
+    border-color: white;
+}
+h1
+{
+    color: white;
+    text-align: center;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+label
+{
+    border-style: solid;
+    padding: 10px;
+}
+form
+{
+    text-align: center;
+}
+.carousel-item>img 
+{
+    max-height: 500px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*CSS for home page*/
+#homeIntroDiv
+{
+    padding: 50px;
+    text-align: center;
+}
+#homeText
+{
+    display: inline-block;
+    color: white;
+}
+
+/*CSS for Meadows page*/
+#meadowsIntroDiv
+{
+    text-align: center;
+}
+#meadowsIntro
+{
+    display: inline-block;
+    color: white;
+}
+#meadowsList
+{
+    display: table;
+    margin: auto;
+    color: white;
+}
+
+/*CSS for Black Forest Page*/
+#forestIntroDiv
+{
+    text-align: center;
+}
+#forestIntro
+{
+    display: inline-block;
+    color: white;
+}
+#forestResources
+{
+    margin: auto;
+    overflow: auto;
+    height: 100px;
+    width: 200px;
+}
+#forestList
+{
+    display: table;
+    margin: auto;
+    color: white;
+}
+
+/*CSS for End page*/
+#endIntroDiv
+{
+    text-align: center;
+}
+#endIntro
+{
+    display: inline-block;
+    color: white;
+}
+#wiki
+{
+    text-align: center;
+}
+#downloadTextDiv
+{
+    padding: 50px;
+    text-align: center;
+}
+#downloadText
+{
+    display: inline-block;
+    color: white;
+}
+
+/*Background images for each page*/
+#homeBody
+{
+    background: url("valheim screenshots/interior.jpg");
+}
+#meadowsBody
+{
+    background-image: url("valheim screenshots/meadows.jpg");
+}
+#forestBody
+{
+    background-image: url("valheim screenshots/blackforest.jpg");
+}
+#endBody
+{
+    background-image: url("valheim screenshots/ocean.jpg");
+}

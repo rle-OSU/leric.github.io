@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body id="endBody">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meadows.html">Meadows</a></li>
+            <li><a href="blackForest.html">Black Forest</a></li>
+            <li><a href="ending.html">END???</a></li>
+        </ul>
+    </nav>
+    <h1>
+        The End?
+    </h1>
+    <div id="endIntroDiv">
+        <pre align="left" id="endIntro">
+            Is there more? Of course! But the joy of Valheim is discovering and finding what you need to survive. There are quite a few
+            more biomes in the game, but I'll let those for you to discover. If you want to find more information, check out the Below
+            link to the official Valheim wiki. Also, please answer below on which biome you have enjoyed the most so far!
+        </pre>
+    </div>
+    <div id="wiki">
+        <span><a href="https://valheim.fandom.com/wiki/Valheim_Wiki">Valheim Wiki</a></span>
+    </div>
+    <br>
+    <div id="endForm">
+        <form onsubmit="return false">
+            <fieldset>
+              <legend>Which Biome did you enjoy most so far?</legend>
+              <label for="biomeChoice">Select between:
+                <br>
+                <input type="radio" name="biome" value="Meadows">Meadows
+                <br>
+                <input type="radio" name="biome" value="Black Forest">Black Forest
+                <br>
+              </label>
+              <br>
+              <input type="submit" id="endSubmit" value="Submit">
+            </fieldset>
+          </form>
+    </div>
+    <div id="downloadTextDiv">
+        <pre id="downloadText">
+            Click on the below button if you would like a small collection of images from Valheim!
+        </pre>
+        <br>
+        <a href="images.zip" download="images"><button>Download</button></a>
+    </div>
+    <footer>
+        <p>
+            While all images were taken during a personal playthough, all assets belong to IronGate Studios
+        </p>
+    </footer>
+    <script src="ending.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
